@@ -141,3 +141,33 @@ footer .politicas a{
     color: white;
     text-decoration: none;
 }
+
+
+.formularios {
+    display: flex; /* Usar flexbox */
+    flex-direction: row; /* Dirección de fila para que los elementos estén uno al lado del otro */
+}
+
+.caja1,
+.caja2 {
+    
+    background-color: rgb(196, 193, 193);
+    width: 50%; /* Ajusta la anchura para que ambas cajas quepan lado a lado */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align:left;
+    border-radius: 5px;
+}
+
+.caja1 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 30px;
+}
+ 
